@@ -9,7 +9,7 @@ public class BallMovement : MonoBehaviour
 {
     [SerializeField] private float initilSpeed = 10;
     [SerializeField] private float speedIncrease = 0.2f;
-    [SerializeField] private Text Player1Score;
+    [SerializeField] private Text player1Score;
     [SerializeField] private Text player2Score;
 
     private int hitCounter;
@@ -66,7 +66,7 @@ public class BallMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collider) {
         if(transform.position.x > 0){
             ResetBall();
-            Player1Score.text = (int.Parse(Player1Score.text) +1 ).ToString();
+            player1Score.text = (int.Parse(player1Score.text) +1 ).ToString();
         } else if(transform.position.x < 0){
             ResetBall();
             player2Score.text = (int.Parse(player2Score.text) +1 ).ToString();
