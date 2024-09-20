@@ -696,7 +696,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 15
-  isPlayer2: 0
   ball: {fileID: 1894255770}
 --- !u!1 &1519599176
 GameObject:
@@ -1272,11 +1271,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1773694258}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 160fc4e8d940aa440b5d80d5b10320ae, type: 3}
+  m_Script: {fileID: 11500000, guid: 7daf7c521371a5e4988ea43dc49a7959, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 7.5
-  isPlayer2: 1
+  movementSpeed: 10
   ball: {fileID: 1894255770}
 --- !u!1 &1894255770
 GameObject:
